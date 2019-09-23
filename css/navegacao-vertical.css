@@ -1,1 +1,5 @@
 /* Barra de navegação Vertical */
+ul{
+    border: 1px solid red;
+    list-style-type: none;
+}
