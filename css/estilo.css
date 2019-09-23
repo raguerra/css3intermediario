@@ -38,3 +38,8 @@ p a{
 h1+p{
     color: pink;
 }
+
+/* Seletor de Irmão Geral */
+h2~p{
+    color: blue;
+}
