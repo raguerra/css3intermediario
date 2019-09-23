@@ -34,3 +34,7 @@ p a{
     background: #d6d6d6;
     text-decoration: none;
 }
+/* Seletor de Irmão Adjacente */
+h1+p{
+    color: pink;
+}
