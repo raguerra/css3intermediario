@@ -1,1 +1,35 @@
 /* Herança e Especificidade */
+body{
+    color: red;
+    font-size: 25px;
+    /* Border não é Herdado */
+    border: 1px solid blue; 
+}
+
+/* Seletor mais específico será aplicado, terá prescedência sobre as regras gerais 
+Seletor é especiífico
+a Class é mais especifíco
+o ID é mais específio ainda*/
+h2{
+    color: green;
+}
+
+h2.rosa{
+    color: rgb(233, 21, 56);
+}
+
+h2#amarelo{
+    color: yellow;
+}
+
+/* A não ser se eu usar o "!important" aí mesmo que venha primeiro, essa será a regra aplicada. */
+p{
+    color: blue;
+}
+
+/* O que vai se aplicado será a última regra, caso os seletores sejam iguais */
+p{
+    color: red;
+}
+
+
