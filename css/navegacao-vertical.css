@@ -29,10 +29,18 @@ ul a{
     text-indent: 40px;
     line-height: 40px;
     /* border: 1px solid red; */
-    background: url(../imagens/menu.png) no-repeat left bottom;
+    background: #fb7600 url(../imagens/menu.png) no-repeat left bottom;
 }
 
 a:hover{
     background-position: right bottom;
+    background-color: #f99200;
+    color: #FFF;
+}
+
+#home .home a,
+#sobre .sobre a{
+    background-position: right bottom;
+    background-color: #f99200;
     color: #FFF;
 }
