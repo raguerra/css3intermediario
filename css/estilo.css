@@ -18,3 +18,12 @@ p.verde{
 }
 
 /* Seletor de ID */
+#cabecalho{
+    border: 1px dotted blue;
+}
+
+/* Seletor de Filho */
+li>a{
+    color: red;
+    text-decoration: none;
+}
