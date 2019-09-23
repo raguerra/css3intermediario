@@ -2,3 +2,19 @@
 *{
     border: 1px solid red;
 }
+
+/* Seletor de Texto */
+h1{
+    color:green;
+}
+
+/* Seletor de Classe */
+.verde{
+    color: green;
+}
+
+p.verde{
+    color:greenyellow;
+}
+
+/* Seletor de ID */
