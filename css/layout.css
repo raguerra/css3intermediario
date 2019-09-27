@@ -9,11 +9,13 @@ body{
 h2{
     padding: 5px;
 }
-
+/* Coluna Falsa para Layout Fixo */
 #container{
-    width: 720px;
+    width: 960px;
     margin: 0 auto;
-    background: #fff;
+    background: #fff url(../imagens/coluna.png) repeat-y top left;
+    min-width: 960px;
+    max-width: 1280px;
 }
 
 #marca{
@@ -53,9 +55,6 @@ h2{
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #d1d1d1;
-    border: 1px solid red;
-
 }
 
 #navegacao ul{
