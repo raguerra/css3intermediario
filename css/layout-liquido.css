@@ -14,6 +14,8 @@ h2{
     width: 85%;
     margin: 0 auto;
     background: #fff;
+    min-width: 720px;
+    max-width: 960px;
 }
 
 #marca{
@@ -24,17 +26,25 @@ h2{
 }
 
 #conteudo{
-    width: 520px;
+    width: 74%;
     float: right;
 }
 
+#navegacao{
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
 #conteudo-principal{
-    width: 320px;
+    width: 63%;
     float: left;
 }
 
 #conteudo-secundario{
-    width: 180px;
+    width: 33%;
     float: right;
     background: #d1d1d1;
 }
@@ -46,16 +56,6 @@ h2{
     padding-left: 20px;
     padding-right: 20px;
     text-align: justify;
-}
-
-#navegacao{
-    width: 180px;
-    float: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: #d1d1d1;
-    border: 1px solid red;
-
 }
 
 #navegacao ul{
