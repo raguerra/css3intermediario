@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Estilizando Tabelas</title>
+        <title>Estilizando Formulários</title>
         <meta charset="utf-8"/>
 
-        <!-- Customizando Tabelas -->
-        <link rel="stylesheet" type="text/css" href="css/tabela.css">
+        <!-- Customizando Formularios -->
+        <link rel="stylesheet" type="text/css" href="css/formularios.css">
     </head>
     
     <body>
-        <h2>Estilizando Tabelas</h2>
-        <table>
-            <tr>
-                <th>Código</th>
-                <th>Produto</th>
-                <th>Preço</th>
-            </tr>
+        <h2>Estilizando Formulários</h2>
+        <form>
+            <fieldset>
+                <legend>Detalhes de Contato</legend>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome"/>
+                </div>
 
-            <tr>
-                <td>001</td>
-                <td>Notebook</td>
-                <td class="numero">R$ 2.500,00</td>
-            </tr>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" id="email"/>
+                </div>
 
-            <tr class="alternado">
-                <td>002</td>
-                <td>Tablet</td>
-                <td class="numero">R$ 1.500,00</td>
-            </tr>
-            
-            <tr>
-                <td>003</td>
-                <td>iPhone</td>
-                <td class="numero">R$ 3.000,00</td>
-            </tr>
+                <div>
+                    <label for="url">URL:</label>
+                    <input type="text" name="url" id="url"/>
+                </div>
+            </fieldset>
 
-            <tr class="alternado">
-                <td>004</td>
-                <td>Nexus</td>
-                <td class="numero">R$ 3.500,00</td>
-            </tr>
+            <fieldset>
+                <legend>Comentários</legend>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                </div>
+            </fieldset>
 
-        </table>
+            <fieldset>
+                <legend>Lembrar de Mim</legend>
+                <div>
+                    <label>
+                        <input class="radio" type="radio" name="lembrar" id="sim">Sim</input>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input class="radio" type="radio" name="lembrar" id="não">Não</input>
+                    </label>
+                </div>
+            </fieldset>
+        </form>
+        
 
     </body>
 
