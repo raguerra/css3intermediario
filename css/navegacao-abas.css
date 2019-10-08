@@ -36,3 +36,25 @@ ul #atual{
 ul #atual a{
     background: url(../imagens/aba-esquerda-atual.png) no-repeat top left;
 }
+
+/* Arrendondamento com Imagens */
+
+.caixa{
+    width: 400px;
+    background: #dedede url(../imagens/fundo-arredondamento.png) repeat-y left top;
+   
+}
+
+.caixa h2{
+    padding: 10px 20px 0px 20px;
+    background: url(../imagens/topo2.png) no-repeat left top;
+}
+
+.caixa p{
+    padding: 0 20px;
+}
+
+.caixa .ultimo{
+    background: url(../imagens/baixo2.png) no-repeat left bottom;
+    padding-bottom: 20px;
+} 
