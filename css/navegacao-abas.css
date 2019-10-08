@@ -41,8 +41,7 @@ ul #atual a{
 
 .caixa{
     width: 400px;
-    background: #dedede url(../imagens/fundo-arredondamento.png) repeat-y left top;
-   
+    background: url(../imagens/fundo-arredondamento.png) repeat-y left top;
 }
 
 .caixa h2{
